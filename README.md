@@ -145,7 +145,7 @@ ws-load test -u wss://echo.websocket.org -d 1m -c 100
 ```bash
 # Send JSON messages with high concurrency
 ws-load test \
-  -u ws://localhost:8080/ws \
+  -u wss://localhost:8080/ws \
   -d 5m \
   -c 500 \
   -m '{"action":"ping","timestamp":1234567890}' \
